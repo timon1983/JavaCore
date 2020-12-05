@@ -1,19 +1,21 @@
-package main.java.com.timon1983.javacore.chapter06;
+package main.java.com.timon1983.javacore.chapter07;
 
 public class Stack {
-    int stck[] = new int[10];
-    int tos;
+    private int stck[] = new int[10];
+    private int tos;
 
-    public Stack(){
+    Stack(){
         tos = -1;
     }
-    public void push(int item){
-        if(tos == 9)
+
+    void push(int item){
+        if(tos == stck.length-1)
             System.out.println("Стек заполнен");
         else
             stck[++tos] = item;
     }
-    public int pop(){
+
+    int pop(){
         if(tos < 0){
             System.out.println("Стек не загружен.");
             return 0;
