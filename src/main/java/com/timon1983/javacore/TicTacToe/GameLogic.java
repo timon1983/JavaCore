@@ -1,63 +1,81 @@
 package main.java.com.timon1983.javacore.TicTacToe;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
  class GameLogic {
 
-     private static Scanner scanner = new Scanner(System.in);
-     private static Random random = new Random();
+     private Field field = new Field();
+     private Scanner scanner = new Scanner(System.in);
+     private Random random = new Random();
+     private ArrayList<Integer> playeer1 = new ArrayList<>();//значения введенные игроком
+     private ArrayList<Integer> playeer2 = new ArrayList<>();//значения введенные копьютером
+     private boolean start = true;
+     private boolean stop = true;
 
      //Выводим исходное игровое поле в консоль и вызываем метод inputValue() для ввода значений
-     static void startGame() {
+     void startGame() {
          System.out.println("Start game");
-         Field.showField();
+         field.showField();
          System.out.println();
-         inputValue();
+         getInput();
      }
-// Вводим значения поочередно с компьютером , проверяя наличие совпадений
-     private static void inputValue() {
-         String user = "Playeer";
-         String computer = "CPU";
-         ArrayList<Integer> playeer1 = new ArrayList<>();//значения введенные игроком
-         ArrayList<Integer> playeer2 = new ArrayList<>();//значения введенные копьютером
-         boolean start = true;
-         boolean stop = true;
 
+     // Вводим значение через консоль
+     private void getInput() {
          while (start) {
-
-             int x = scanner.nextInt();//считываем с консоли
-             while(playeer1.contains(x) || playeer2.contains(x) || x < 1 || x > 9) { //проверка на неккорктный ввод
+             if(start == false) break;
+              int x = scanner.nextInt();//считываем с консоли
+             while (playeer1.contains(x) || playeer2.contains(x) || x < 1 || x > 9) { //проверка на неккорктный ввод
                  System.out.println("Incorrect input , try again");
                  x = scanner.nextInt();
              }
+             validateInput(x);
+         }
+     }
+
+         //заносим значение в поле и проверяем выигрыш
+         private void validateInput(int x) {
              playeer1.add(x);//добавляем в список
-             Field.changeField(x,'X');//записываем в игровое поле положение Х
-             Field.showField();//выводим обновленное игровое поле в консоль
-             stop = chekWin(playeer1 , user);//проверяем выигрыш
+             changeField(x, "X");//записываем в игровое поле положение Х
+             field.showField();//выводим обновленное игровое поле в консоль
+             stop = chekWin(playeer1, Players.PLAYER);//проверяем выигрыш
              if (playeer1.size() >= 5 || stop == false) {
                  System.out.println("Game Over");
-                 break;
+                 start = false;
              }
+             else
+                 generatePCInput();
+     }
 
+         //генерация рандомного значения компьютером
+         private void generatePCInput() {
              int y = random.nextInt(9) + 1;//компьютер рандомно вводит значение от 1-9
-             while(playeer1.contains(y) || playeer2.contains(y)) {   //проверка на неккорктный ввод
+             while (playeer1.contains(y) || playeer2.contains(y)) {   //проверка на неккорктный ввод
                  y = random.nextInt(9) + 1;
              }
              System.out.println(y);//показываем значение введенное компьютером
+             validatePCInput(y);
+         }
+
+         //заносим значение в поле и проверяем выигрыш
+         private void validatePCInput(int y) {
              playeer2.add(y);//добавляем в список
-             Field.changeField(y,'O');//записываем в игровое поле положение Y
-             Field.showField();//выводим обновленное игровое поле в консоль
-             stop = chekWin(playeer2,computer);//проверяем выигрыш
+             changeField(y, "O");//записываем в игровое поле положение Y
+             field.showField();//выводим обновленное игровое поле в консоль
+             stop = chekWin(playeer2, Players.CPU);//проверяем выигрыш
              if (stop == false) {
                  System.out.println("Game Over");
-                 break;
+                 start = false;
              }
-         }
+                 else
+                     getInput();
      }
-// проверка выигрыша с помощью сравнения введенных значений с выигрышными комбинациями
-     private static boolean chekWin(ArrayList<Integer> array , String playeer) {
+
+     // проверка выигрыша с помощью сравнения введенных значений с выигрышными комбинациями
+     private boolean chekWin(ArrayList<Integer> array , Players players) {
              ArrayList<Integer> row1 = new ArrayList<Integer>();
              ArrayList<Integer> row2 = new ArrayList<Integer>();
              ArrayList<Integer> row3 = new ArrayList<Integer>();
@@ -93,12 +111,48 @@ import java.util.Scanner;
              if(array.containsAll(row1) || array.containsAll(row2) || array.containsAll(row3) ||
                      array.containsAll(column1) || array.containsAll(column2) || array.containsAll(column3) ||
                      array.containsAll(diagonal1) || array.containsAll(diagonal2)) {
-                 System.out.println(playeer + " is win!!!");
-                 return false;}
+                 System.out.println(players + " is win!!!");
+                 return false;
+             }
                  else
                      return true;
              }
+
+             //изменения значения элементов игрового поля
+             void changeField(int c, String b){
+         switch (c){
+             case 1:
+                 field.a[0] = b;
+                 break;
+             case 2:
+                 field.a[1] = b;
+                 break;
+             case 3:
+                 field.a[2] = b;
+                 break;
+             case 4:
+                 field.a[3] = b;
+                 break;
+             case 5:
+                 field.a[4] = b;
+                 break;
+             case 6:
+                 field.a[5] = b;
+                 break;
+             case 7:
+                 field.a[6] = b;
+                 break;
+             case 8:
+                 field.a[7] = b;
+                 break;
+             case 9:
+                 field.a[8] = b;
+                 break;
+             default:
+                 break;
          }
+     }
+ }
 
 
 
