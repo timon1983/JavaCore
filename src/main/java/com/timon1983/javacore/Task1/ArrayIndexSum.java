@@ -4,21 +4,17 @@ import java.util.Arrays;
 
 public class ArrayIndexSum {
 
-    void indexSum(int number , int [] c) {
-        int index1 = 0;
-        int index2 = 0;
+    int[] indexSum(int number, int[] c) {
+        int[] result;
         for (int i = 0; i < c.length; i++) {
             for (int j = i + 1; j < c.length; j++) {
-                int sum = c[i] + c[j];
-                if (number == sum) {
-                    index1 = i;
-                    index2 = j;
-                    break;
+                if (number == c[i] + c[j]) {
+                    result = new int[]{i, j};
+                    return result;
                 }
             }
         }
-        System.out.println("array = " + Arrays.toString(c) + ", Number = " + number);
-        System.out.println("result = [" + index1 + ", " + index2 + "]");
+        return null;
     }
 }
 
@@ -27,6 +23,6 @@ class Test{
         int[] array = {3, 8, 15, 17, 6, 9, 5, 35, 14};
         int number = 52;
         ArrayIndexSum ais = new ArrayIndexSum();
-        ais.indexSum(number, array);
+        System.out.println(Arrays.toString(ais.indexSum(number, array)));
     }
 }
