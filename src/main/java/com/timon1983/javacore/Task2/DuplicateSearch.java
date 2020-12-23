@@ -1,13 +1,17 @@
 package Task2;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class DuplicateSearch {
     boolean searchDuplcateElements(int[] a) {
+        Set<Integer> unic = new HashSet<>();
         for (int i = 0; i < a.length; i++) {
-            for (int j = i + 1; j < a.length; j++) {
-                if (a[i] == a[j])
-                    return true;
-            }
+            unic.add(a[i]);
         }
+        if(a.length > unic.size())
+            return true;
+        else
             return false;
     }
 }

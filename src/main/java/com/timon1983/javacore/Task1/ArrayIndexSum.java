@@ -1,20 +1,25 @@
 package Task1;
 
+
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ArrayIndexSum {
 
     int[] indexSum(int number, int[] c) {
-        int[] result;
+        int[] result = new int[2];
+        Integer[] a = new Integer[c.length];
+        Map<Integer, Integer> elements = new HashMap<>();
         for (int i = 0; i < c.length; i++) {
-            for (int j = i + 1; j < c.length; j++) {
-                if (number == c[i] + c[j]) {
-                    result = new int[]{i, j};
-                    return result;
-                }
-            }
+            a[i] = c[i];
+            if (elements.containsKey(c[i])) {
+                result[0] = Arrays.asList(a).indexOf(elements.get(c[i]));
+                result[1] = i;
+            } else
+                elements.put(number - c[i], c[i]);
         }
-        return null;
+        return result;
     }
 }
 
