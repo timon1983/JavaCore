@@ -1,6 +1,6 @@
 package main.java.com.timon1983.javacore.TicTacToe;
 
-import javax.swing.*;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
