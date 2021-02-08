@@ -8,7 +8,6 @@ import java.util.stream.Stream;
 public class LableRepository {
     File file = new File("lables.txt");
 
-
     Label getByld(Long id) {
         List<String> lines = new ArrayList<>();
         String name = null;
@@ -22,7 +21,7 @@ public class LableRepository {
             System.out.println("Произошла ошибка ввода-вывода");
         }
         String myStream = lines.stream().filter((n)->(n.startsWith(Long.toString(id)))).
-                map((n) ->(n.substring(3))).findFirst().orElse("Нет такого id");
+                map((n) ->(n.substring(3))).findFirst().orElse("Нет записи с таким id");
 
         return  new Label(id , myStream);
     }
@@ -91,7 +90,11 @@ public class LableRepository {
         }
 
         String linesStream = lines.stream().filter((n) -> (n.startsWith(Long.toString(l.getId())))).findFirst().orElse("Нет такого  id");
-        lines.set(lines.indexOf(linesStream), linesStream.substring(0, 3) + l.getName());
+        if(!linesStream.equals("Нет такого  id")){
+            lines.set(lines.indexOf(linesStream), linesStream.substring(0, 3) + l.getName());
+        }else {
+            System.out.println("Нет такого  id");
+        }
 
         try (FileWriter fw = new FileWriter(file,false)) {
             for (String s : lines)
