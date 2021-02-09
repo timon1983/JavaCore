@@ -3,8 +3,8 @@ package crud;
 import java.util.Scanner;
 
 public class LabelView {
-    Scanner in = new Scanner(System.in);
-    LabelController lc = new LabelController();
+    private Scanner in = new Scanner(System.in);
+    private LabelController lc = new LabelController();
 
 
     void dataIN(){

@@ -5,10 +5,11 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class LableRepository {
-    File file = new File("lables.txt");
+public class LableRepository implements WriterRepository{
+    private File file = new File("lables.txt");
 
-    Label getByld(Long id) {
+    @Override
+    public Label getByld(Long id) {
         List<String> lines = new ArrayList<>();
         String name = null;
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -26,7 +27,8 @@ public class LableRepository {
         return  new Label(id , myStream);
     }
 
-    List<Label> getAll() {
+    @Override
+    public List<Label> getAll() {
         List<Label> lables = new ArrayList<>();
         Long idGet;
         String nameGet;
@@ -44,7 +46,8 @@ public class LableRepository {
         return lables;
     }
 
-    Label save(Label l) {
+    @Override
+    public Label save(Label l) {
         long newID;
         List<String> lines = new LinkedList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -77,7 +80,8 @@ public class LableRepository {
         return l;
     }
 
-    Label update(Label l) {
+    @Override
+    public Label update(Label l) {
         List<String> lines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while (true) {
@@ -105,7 +109,8 @@ public class LableRepository {
         return l;
     }
 
-    void deleteByld(Long id) {
+    @Override
+    public void deleteByld(Long id) {
         List<String> lines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while (true) {
@@ -116,8 +121,12 @@ public class LableRepository {
         } catch (IOException e) {
             System.out.println("Произошла ошибка ввода-вывода");
         }
-
-        lines.removeIf((n)->(n.startsWith(Long.toString(id))));
+        boolean remove = lines.removeIf((n)->(n.startsWith(Long.toString(id))));
+        if (!remove) {
+                System.out.println("Нет записи с таким ID");
+            } else {
+                System.out.println("Запись с ID " + id + " удалено");
+            }
 
         try (FileWriter fw = new FileWriter(file,false)) {
                 for (String s : lines){
@@ -127,7 +136,8 @@ public class LableRepository {
             }
         }
 
-        private String convertLabeltoString(Label l){
+        @Override
+        public String convertLabeltoString(Label l){
             String line = l.getId() + ", " + l.getName();
             return line;
         }
