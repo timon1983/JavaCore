@@ -1,4 +1,6 @@
-package crud;
+package crud.view;
+
+import crud.controller.LabelController;
 
 import java.util.Scanner;
 
@@ -7,7 +9,7 @@ public class LabelView {
     private LabelController lc = new LabelController();
 
 
-    void dataIN(){
+    public void dataIN(){
         long idIn;
         String nameIn;
         System.out.println("1-Создать запись\n2-Получить запись по id\n3-Получить все записи\n" +

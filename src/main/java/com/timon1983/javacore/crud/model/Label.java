@@ -1,4 +1,4 @@
-package crud;
+package crud.model;
 
 public class Label {
     Long id;

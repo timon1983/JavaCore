@@ -1,11 +1,12 @@
-package crud;
+package crud.repository.io;
+
+import crud.repository.LabelRepository;
+import crud.model.Label;
 
 import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class LableRepository implements WriterRepository{
+public class JavaIOLableRepositoryImpl implements LabelRepository {
     private File file = new File("lables.txt");
 
     @Override
@@ -65,9 +66,6 @@ public class LableRepository implements WriterRepository{
             newID = Long.parseLong(lines.get(lines.size() - 1).substring(0, lines.get(lines.size() - 1).
                 indexOf(',',0))) + 1;
         }
-        //Не получается сделать через стрим
-//        newID = Long.parseLong(lines.stream().skip(lines.size() - 1).findAny().
-//                map((n) -> (n.substring(0,lines.get(lines.size() - 1).indexOf(',',0)))).orElse("0")) + 1L;
 
         l.setId(newID);
 
@@ -136,8 +134,7 @@ public class LableRepository implements WriterRepository{
             }
         }
 
-        @Override
-        public String convertLabeltoString(Label l){
+        private String convertLabeltoString(Label l){
             String line = l.getId() + ", " + l.getName();
             return line;
         }

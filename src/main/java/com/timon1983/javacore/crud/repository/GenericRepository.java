@@ -1,4 +1,4 @@
-package crud;
+package crud.repository;
 
 import java.util.List;
 
@@ -13,7 +13,4 @@ public interface GenericRepository<T,ID> {
     T update(T t);
 
     void deleteByld(ID id);
-
-    String convertLabeltoString(T t);
-
 }
