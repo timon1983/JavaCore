@@ -109,10 +109,10 @@ public class JavaIOPostRepository implements PostRepository {
             System.out.println("Произошла ошибка ввода-вывода");
         }
 
-        String linesStream = lines.stream().filter((n) -> (n.startsWith(Long.toString(post.getId())))).
-                findFirst().orElse("Нет такого  id");
+        String linesStream = lines.stream().filter((n) -> (n.startsWith(Long.toString(post.getId())))).findFirst().orElse("Нет такого  id");
+        String[] splitLineStream = linesStream.split(",");
         if(!linesStream.equals("Нет такого  id")){
-            lines.set(lines.indexOf(linesStream), linesStream.substring(0, 3) +
+            lines.set(lines.indexOf(linesStream), splitLineStream[0] + ", " +
                     post.getContent() + ", " +post.getCreated() + ", " + post.getUpdated() + ", " +
                     post.getLables());
         }else {

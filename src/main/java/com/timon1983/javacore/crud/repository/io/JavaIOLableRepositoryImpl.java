@@ -92,8 +92,9 @@ public class JavaIOLableRepositoryImpl implements LabelRepository {
         }
 
         String linesStream = lines.stream().filter((n) -> (n.startsWith(Long.toString(l.getId())))).findFirst().orElse("Нет такого  id");
+        String[] splitLineStream = linesStream.split(",");
         if(!linesStream.equals("Нет такого  id")){
-            lines.set(lines.indexOf(linesStream), linesStream.substring(0, 3) + l.getName());
+            lines.set(lines.indexOf(linesStream), splitLineStream[0] + ", " + l.getName());
         }else {
             System.out.println("Нет такого  id");
         }

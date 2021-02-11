@@ -32,8 +32,8 @@ public class WriterController {
 
 
     public Writer checkUpdate(long id, String firstName, String lastName) {
-        List<Post> lables = pr.getAll();
-        Writer writer = new Writer(id,  firstName,lastName, lables);
+        List<Post> posts = pr.getAll();
+        Writer writer = new Writer(id,firstName,lastName, posts);
         return wr.update(writer);
     }
 

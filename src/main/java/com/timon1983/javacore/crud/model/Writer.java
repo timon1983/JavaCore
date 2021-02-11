@@ -15,7 +15,9 @@ public class Writer {
         this.posts = posts;
     }
 
-    public long getId() { return id; }
+    public long getId() {
+        return id;
+    }
 
     public String getFirstName() { return firstName; }
 
@@ -33,7 +35,7 @@ public class Writer {
 
     @Override
     public String toString() {
-        return "id= " + id + " , firstName= " + firstName +
+        return "id=" + id + " , firstName= " + firstName +
                 " , lastName= " + lastName +
                 " , posts= " + posts;
     }

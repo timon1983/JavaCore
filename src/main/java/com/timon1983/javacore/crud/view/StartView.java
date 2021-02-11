@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class StartView {
     private Scanner in = new Scanner(System.in);
-//    private LabelView labelView = new LabelView();
-//    private PostView postView = new PostView();
-//    private WriterView writerView = new WriterView();
-
 
     public void start(){
         System.out.println("1 - Метка\n2 - Запись\n3 - Пользователь\n4 - Завершить программу");

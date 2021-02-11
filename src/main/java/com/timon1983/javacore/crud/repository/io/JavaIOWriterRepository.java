@@ -7,7 +7,6 @@ import main.java.com.timon1983.javacore.crud.repository.WriterRepository;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -105,11 +104,11 @@ public class JavaIOWriterRepository implements WriterRepository {
         } catch (IOException e) {
             System.out.println("Произошла ошибка ввода-вывода");
         }
-
         String linesStream = lines.stream().filter((n) -> (n.startsWith(Long.toString(writer.getId())))).
                 findFirst().orElse("Нет такого  id");
+        String[] splitLineStream = linesStream.split(",");
         if(!linesStream.equals("Нет такого  id")){
-            lines.set(lines.indexOf(linesStream), linesStream.substring(0, 3) +
+            lines.set(lines.indexOf(linesStream), splitLineStream[0] + ", " +
                     writer.getFirstName() + ", " + writer.getLastName() + ", " + writer.getPosts());
         }else {
             System.out.println("Нет такого  id");
@@ -122,7 +121,6 @@ public class JavaIOWriterRepository implements WriterRepository {
             System.out.println("Произошла ошибка ввода-вывода");
         }
         return writer;
-
     }
 
     @Override
