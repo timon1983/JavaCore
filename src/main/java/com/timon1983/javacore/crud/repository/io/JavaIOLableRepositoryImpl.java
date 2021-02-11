@@ -1,7 +1,7 @@
-package crud.repository.io;
+package main.java.com.timon1983.javacore.crud.repository.io;
 
-import crud.repository.LabelRepository;
-import crud.model.Label;
+import main.java.com.timon1983.javacore.crud.repository.LabelRepository;
+import main.java.com.timon1983.javacore.crud.model.Label;
 
 import java.io.*;
 import java.util.*;
