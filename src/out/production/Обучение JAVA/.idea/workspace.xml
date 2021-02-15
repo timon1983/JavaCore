@@ -4,11 +4,340 @@
     <list default="true" id="63ae3a80-f8d9-4925-acaf-2a42b111ade8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/javacore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/out/production/javacore/javacore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/Task1/ArrayIndexSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/Task1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/Task2/DuplicateSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/Task2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/TicTacToe/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/TicTacToe/GameLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/TicTacToe/GameRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/TicTacToe/Players.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter02/BlockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter02/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter02/Example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter02/ForTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter02/IfSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/AutoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Average.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/BoolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/CharDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/CharDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Conversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/DynInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/LifeTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Promote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/Scope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/ScopeErr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/ThreeDMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/TwoDAgain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter03/TwoDArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/BasicMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/BitLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/BiteUShift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/BoolLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/ByteShift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/HexByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/IncDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/Modulus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/MultyByTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/OpBitEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/OpEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter04/Ternary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Break.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/BreakErr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/BreakLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/BreakLoop2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/BreakLoop3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/BreakLoop4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Comma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Continue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/ContinueLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/DoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/FindPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/ForEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/ForEach2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/ForEach3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/ForTick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/ForVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/IfElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/MissingBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Nested.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/NoBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/NoChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Return.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/SampleSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/StringSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/Switch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter05/While.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/BoxDemo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter06/TestStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/AccessTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/CallByValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/CommandLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/InnerClassDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Length.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Outer$1Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Overload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/OverloadCons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/OverloadCons2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/OverloadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/PassArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/PassOb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/PassObjRe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/RecTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Recursion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/RetOb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/StaticByName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/StaticDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/StringDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/StringDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/TestStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/UseStatic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/VarArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/VarArgs2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/VarArgs3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter07/VarArgs4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/AbstractAreas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Access.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/BoxWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/CallingCons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/ColorBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/DemoBoxWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/DemoShipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/DemoSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Dispatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Figure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/FindAreas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Override.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/RefDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Shipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/SimpleInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter08/UseSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/A$NestedIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/AnotherClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/AskMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/DefaultMethodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/DynStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/FixedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/IFExtend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/IFTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/IFTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/IFTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/Incomplete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/IntStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyIFImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyIFImp2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyPack/Balance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyPack/CallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/MyPack/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/NestedIFDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/SharedConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/TestBalance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/TestIface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/TestIface2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p1/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p1/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p1/Protection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p1/SamePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p2/OverPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter09/p2/Protection2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/ChainExcDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/Exc0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/Exc1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/Exc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/ExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/FinallyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/HandleError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/MethNestTry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/MultiCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/MultipleCatches.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/NestTry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/SuperSubCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/ThrowDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter10/ThrowsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/AssertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/BRRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/BRReadLines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/CopyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/CopyFile1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/Hypot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/InstanceOf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/NativeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/PrintWriterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/ShowFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/ShowFile1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/ShowFile2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/SimpleApplet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/SimpleApplet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/TinyEdit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter13/WriteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/BlockLambdaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/BlockLambdaDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/ConstructorRefDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/ConstructorRefDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/ConstructorRefDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/DoubleNumericArrayFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/EmptyArrayException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/GenericFunctionalInterfaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/GenericMethodRefDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/HighTemp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/InstanceMethWithObjectRefDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/LambdaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/LambdaDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/LambdaDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/LambdaExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/LambdasAsArgumentsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MethodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyArraysOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyClass3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyClass5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyFunc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyFunc3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyFunc4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyFunc5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyFunc6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/MyStringOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/NumericFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/NumericTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/NumericTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/SomeFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/StringFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/StringFunc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/StringFunc3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/UseFunctionInterfaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/UseMethodRef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter15/VarCapture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/AlgorithmsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/ArrayDequeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/ArrayListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/ArrayListToArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/ArraysDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/CompDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/CompDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/CompLastNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/CompThenByFirstName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/ForEachDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/HTDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/HTDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/HashMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/HashSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/IteratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/LinkedHashSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/LinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/MailList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/MyComp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/Phonebook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/PropDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/PropDemoDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/SpliteratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/StackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/TComp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/TreeMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/TreeMapDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/TreeMapDemo2A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/TreeSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter18/VectorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/BufferedInputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/BufferedReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/ByteArrayInputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/ByteArrayInputStreamReset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/ByteArrayOutputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/CharArrayReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/CharArrayWriterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/ConcoleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/DataIODemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/DirList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/DirListOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/FileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/FileInputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/FileOutputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/FileOutputStreamDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/FileReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/FileWriterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/InputStreamEnumerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/OnlyExt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/PrintfDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/PushbackInputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/PushbackReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/SequenceInputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter20/SerislizationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/DirList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/DirList2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/DirList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/DirTreeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/ExplicitChannelRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/ExplicitChannelRead2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/ExplicitChannelWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/MapedChannelRead2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/MappedChannelRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/MappedChannelWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/MyFileVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/NIOCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/NIOStreamWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/PathDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/chapter21/ShowFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/javacore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/out/production/javacore/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/out/production/javacore/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/out/production/javacore/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/out/production/javacore/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/main/java/com/timon1983/javacore/out/production/javacore/javacore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaCore/Обучение JAVA.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Post.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Writer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lables.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/Readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/controller/LabelController.java" afterDir="false" />
@@ -18,15 +347,6 @@
       <change beforePath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/repository/io/JavaIOLableRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/repository/io/JavaIOLableRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/view/LabelView.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud/view/LabelView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/Post.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/Post.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/Writer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/Writer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/lables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/lables.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/controller/WriterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/controller/WriterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/model/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/model/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/repository/io/JavaIOLableRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/repository/io/JavaIOLableRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/repository/io/JavaIOPostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/repository/io/JavaIOPostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/repository/io/JavaIOWriterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/repository/io/JavaIOWriterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/view/StartView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Обучение JAVA/main/java/com/timon1983/javacore/crud/view/StartView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Материалы/CrudConsole-master/src/main/resources/files/categories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Материалы/CrudConsole-master/src/main/resources/files/categories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Материалы/CrudConsole-master/src/main/resources/files/customers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Материалы/CrudConsole-master/src/main/resources/files/customers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Материалы/Module 1.3/Module_1_3_Timur_Ahunov_Tasks.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Материалы/Module 1.3/Module_1_3_Timur_Ahunov_Tasks.docx" afterDir="false" />
@@ -46,7 +366,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/main/java/com/timon1983/javacore/crud" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/main/java/com/timon1983/javacore" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -70,18 +390,70 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.timon1983.javacore.crud.Main" />
+  <component name="RunManager" selected="Application.AtomicDemo">
+    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.timon1983.javacore.chapter28.AtomicDemo" />
       <module name="Обучение JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.timon1983.javacore.crud.*" />
+          <option name="PATTERN" value="main.java.com.timon1983.javacore.chapter28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.timon1983.javacore.chapter28.CallableDemo" />
+      <module name="Обучение JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.timon1983.javacore.chapter28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.timon1983.javacore.chapter28.LockDemo" />
+      <module name="Обучение JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.timon1983.javacore.chapter28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.timon1983.javacore.chapter07.Recursion" />
+      <module name="Обучение JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.timon1983.javacore.chapter07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpExec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.timon1983.javacore.chapter28.SimpExec" />
+      <module name="Обучение JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.timon1983.javacore.chapter28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AtomicDemo" />
+        <item itemvalue="Application.LockDemo" />
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.SimpExec" />
       </list>
     </recent_temporary>
   </component>
