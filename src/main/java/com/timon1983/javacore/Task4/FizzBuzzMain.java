@@ -8,16 +8,13 @@ public class FizzBuzzMain {
     public static void main(String[] args) {
 
             FizzBuzz fb = new FizzBuzz(45);
-            CyclicBarrier cb = new CyclicBarrier(4, new Runnable() {
+            CyclicBarrier cb = new CyclicBarrier(4, () -> {
 
-                @Override
-                public void run() {
-                    TreeMap<Integer, String> sorted = new TreeMap<>();
+                TreeMap<Integer, String> sorted = new TreeMap<>();
                     sorted.putAll(fb.resultNumbers);
                     for(Map.Entry<Integer, String> result : sorted.entrySet()){
                         System.out.print(result.getValue() + ", ");
-                }
-            }
+                    }
             });
 
             new Fizz(cb, fb);
