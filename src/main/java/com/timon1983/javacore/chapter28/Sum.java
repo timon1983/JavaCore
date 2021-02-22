@@ -30,6 +30,7 @@ public class Sum extends RecursiveTask<Double> {
 
             subTaskA.fork();
             subTaskB.fork();
+
             sum = subTaskA.join() + subTaskB.join();
         }
         return sum;

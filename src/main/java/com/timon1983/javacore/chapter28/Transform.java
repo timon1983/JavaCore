@@ -35,13 +35,13 @@ class FJExperiment{
         int pLevel;
         int threshold;
 
-        if(args.length != 2){
-            System.out.println("Использование: FJExperiment параллелизм порог ");
-            return;
-        }
+//        if(args.length != 2){
+//            System.out.println("Использование: FJExperiment параллелизм порог ");
+//            return;
+//        }
 
-        pLevel = Integer.parseInt(args[0]);
-        threshold = Integer.parseInt(args[1]);
+        pLevel = 4;
+        threshold = 500000;
 
         long beginT, endT;
 

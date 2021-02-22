@@ -1,5 +1,8 @@
 package Task3;
 
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+
 public class Foo {
 
     public void first(){
@@ -18,25 +21,17 @@ public class Foo {
 class FooMain{
     public static void main(String[] args) {
         Foo foo = new Foo();
-
-        Thread threadFirst = new Thread(()->{
+        CompletableFuture<Void> completableFuture = CompletableFuture.runAsync(() -> {
             foo.first();
-        });
-
-        Thread threadSecond = new Thread(() -> {
             foo.second();
-        });
-
-        Thread threadThird = new Thread(() -> {
             foo.third();
         });
-
-        threadFirst.setPriority(10);
-        threadSecond.setPriority(5);
-        threadThird.setPriority(1);
-
-        threadFirst.start();
-        threadSecond.start();
-        threadThird.start();
+        try {
+            completableFuture.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
     }
 }

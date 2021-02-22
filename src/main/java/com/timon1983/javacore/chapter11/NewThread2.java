@@ -21,7 +21,7 @@ public class NewThread2 extends Thread{
 
 class ExtedThread{
     public static void main(String[] args) {
-        new NewThread();
+        new NewThread2();
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println("Главный поток: " + i);
