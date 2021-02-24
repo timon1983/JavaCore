@@ -51,14 +51,14 @@ class FooThread1 implements Runnable{
 
 class FooThread2 implements Runnable{
     CyclicBarrier cyclicBarrier;
-    Foo foo = new Foo();
+    Foo foo1 = new Foo();
 
     FooThread2(CyclicBarrier cb){
         cyclicBarrier = cb;
     }
     @Override
     public void run() {
-        foo.second();
+        foo1.second();
         try {
             cyclicBarrier.await();
         } catch (InterruptedException e) {
@@ -71,14 +71,14 @@ class FooThread2 implements Runnable{
 
 class FooThread3 implements Runnable{
     CyclicBarrier cyclicBarrier;
-    Foo foo = new Foo();
+    Foo foo2 = new Foo();
 
     FooThread3(CyclicBarrier cb){
         cyclicBarrier = cb;
     }
     @Override
     public void run() {
-        foo.third();
+ //       foo2.third();
         try {
             cyclicBarrier.await();
         } catch (InterruptedException e) {
