@@ -60,5 +60,6 @@ class FooMain{
 
             foo.second();
         });
+       Thread.sleep(1000);
     }
 }
