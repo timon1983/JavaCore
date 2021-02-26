@@ -1,30 +1,59 @@
 package Task4;
 
+import java.util.concurrent.Semaphore;
+import java.util.function.IntConsumer;
+
+
 public class FizzBuzz2 {
     private int number;
+    int num = 1;
 
     public FizzBuzz2(int n) {
         number = n;
     }
 
-    public void fizz(int num) {
-        if (num % 3 == 0 && num % 5 != 0) {
-                System.out.print("fizz" + ", ");
+public synchronized void fizz(Runnable printFizz) throws InterruptedException {
+    while(num <= number) {
+        if(num % 3 == 0 && num % 5 != 0) {
+            printFizz.run();
+            num++;
+            notifyAll();
+        } else {
+            wait();
         }
     }
-    public void buzz(int num) {
-        if (num % 5 == 0 && num % 3 != 0) {
-                System.out.print("buzz" + ", ");
+}
+    public synchronized void buzz(Runnable printBuzz) throws InterruptedException {
+        while(num <= number) {
+            if(num % 3 != 0 && num % 5 == 0) {
+                printBuzz.run();
+                num++;
+                notifyAll();
+            } else {
+                wait();
             }
+        }
     }
-    public void fizzbuzz(int num) {
-        if (num % 5 == 0 && num % 3 == 0) {
-                System.out.print("fizzbuzz" + ", ");
+    public synchronized void fizzbuzz(Runnable printFizzBuzz) throws InterruptedException {
+        while(num <= number) {
+            if(num % 5 == 0 && num % 3 == 0) {
+                printFizzBuzz.run();
+                num++;
+                notifyAll();
+            } else {
+                wait();
             }
+        }
     }
-    public void number(int num) {
-        if (num % 3 != 0 && num % 5 != 0) {
-                System.out.print(String.valueOf(num) + ", ");
+    public synchronized void number(IntConsumer printNumber) throws InterruptedException {
+        while(num <= number) {
+            if(num % 3 != 0 && num % 5 != 0) {
+                printNumber.accept(num);
+                num++;
+                notifyAll();
+            } else {
+                wait();
             }
+        }
     }
 }
