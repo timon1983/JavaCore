@@ -1,47 +1,32 @@
 package Task4;
 
-import java.util.concurrent.CompletableFuture;
+
 import java.util.function.IntConsumer;
 
 public class FizzBuzzMain2  {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         FizzBuzz2 fb = new FizzBuzz2(20);
+
         IntConsumer printNumber = number -> System.out.print(number + ", ");
         Runnable printFizz = ()-> System.out.print("fizz" + ", ");
         Runnable printBuzz = ()-> System.out.print("buzz" + ", ");
         Runnable printFizzBuzz = ()-> System.out.print("fizzbuzz" + ", ");
 
         Thread thread1 = new Thread(() -> {
-            try {
-                fb.fizz(printFizz);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            fb.fizz(printFizz);
         });
 
         Thread thread2 = new Thread(() -> {
-            try {
-                fb.buzz(printBuzz);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            fb.buzz(printBuzz);
         });
 
         Thread thread3 = new Thread(() -> {
-            try {
-                fb.fizzbuzz(printFizzBuzz);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            fb.fizzbuzz(printFizzBuzz);
         });
 
         Thread thread4 = new Thread(() -> {
-            try {
-                fb.number(printNumber);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            fb.number(printNumber);
         });
 
         thread4.start();
